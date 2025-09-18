@@ -3,8 +3,8 @@ layout: page
 permalink: /research/
 title: research
 description: Collection of working papers
-nav: false
-nav_order: 6
+nav: true
+nav_order: 3
 ---
 
 WORKING PAPER HERE
