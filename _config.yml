@@ -192,6 +192,18 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _posts/
+  - _projects/?_project.md
+
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -642,20 +654,4 @@ jsonresume:
   - languages
   - interests
   - references
-
-# -----------------------------------------------------------------------------
-# Exclude sections
-# -----------------------------------------------------------------------------
-
-  exclude:
-  - _news/announcement_*.md
-  - _pages/blog.md
-  - _pages/books.md
-  - _pages/news.md
-  - _pages/profiles.md
-  - _pages/projects.md
-  - _pages/publications.md
-  - _pages/repositories.md
-  - _posts/
-  - _projects/?_project.md
 
