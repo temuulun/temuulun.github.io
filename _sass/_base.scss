@@ -24,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--global-text-color);
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -36,8 +36,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: 'Gill Sans Nova';
-  font-weight: bold;
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 }
 /*---by TEMU---*/
 
@@ -293,7 +292,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
-  font-family: 'Gill Sans Nova';
+  font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 
   &:hover {
     color: var(--global-hover-color);
@@ -310,13 +309,11 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
-    font-family: $nav-font-family;
-
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-family: 'Gill Sans Nova';
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 
     &:hover {
       color: var(--global-hover-color);
