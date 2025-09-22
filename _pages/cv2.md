@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cv/
-title: 
+title: CV
 description: A list of institutions I've spent time at.
 nav: true
 nav_order: 3
