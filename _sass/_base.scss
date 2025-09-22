@@ -257,6 +257,8 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-family: $nav-font-family;
+
 }
 
 .navbar .dropdown-menu {
@@ -294,6 +296,8 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: $nav-font-family;
+
   }
 
   .navbar-nav .nav-item .nav-link {
