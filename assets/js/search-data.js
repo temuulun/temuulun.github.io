@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "dropdown-gallery",
-              title: "gallery",
+              title: "Gallery",
               description: "",
               section: "Dropdown",
               handler: () => {
