@@ -214,8 +214,8 @@ ul.task-list input[type="checkbox"] {
 
 /*------- about page override----------*/
 .about {
-  font-size: 0.9rem;     // shrink text slightly
-  max-width: 750px;      // narrower column
+  font-size: 0.875rem;     // shrink text slightly
+  max-width: 700px;      // narrower column
   margin: 0 auto;        // center it
 
   h1, h2, h3 {
@@ -223,7 +223,8 @@ ul.task-list input[type="checkbox"] {
   }
 
   p {
-    line-height: 1.2;    // adjust spacing for aesthetics
+    font-size: 90%; 
+    line-height: 1.5;    // adjust spacing for aesthetics
   }
 }
 
@@ -246,7 +247,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .profile.float-left {
@@ -292,13 +293,19 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 2rem;
 }
 
-.research-item h3 {
-  font-size: 90%;
+.research-item {
+  h1, h2, h3 {
+    font-size: 90%;      // scale down headings
+  }
+
+  p, a {
+    font-size: 90%; 
+    line-height: 1.5;    // adjust spacing for aesthetics
+  }
   margin-bottom: 0.3rem;
 }
 
 .research-item .abstract {
-  font-size: 0.9rem;
   color: #555;
 }
 
