@@ -1,0 +1,61 @@
+--- 
+layout: default 
+---
+
+<div class="post research">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="row">
+    <!-- Sidebar -->
+    <aside class="col-md-3">
+      <nav class="toc">
+        <ul>
+          <li><a href="#working-papers">Working Papers</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#other">Other</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <article class="col-md-9">
+      <section id="working-papers">
+        <h2>Working Papers</h2>
+        <div class="research-entry">
+          <h3>Paper Title 1</h3>
+          <p class="abstract">This is the abstract of the paper...</p>
+          <a href="link-to-paper.pdf" target="_blank">Read more</a>
+        </div>
+
+        <div class="research-entry">
+          <h3>Paper Title 2</h3>
+          <p class="abstract">Abstract text here...</p>
+          <a href="link-to-paper.pdf" target="_blank">Read more</a>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="research-entry">
+          <h3>Project Title</h3>
+          <p class="abstract">Short description of the project...</p>
+          <a href="project-link.html">Learn more</a>
+        </div>
+      </section>
+
+      <section id="other">
+        <h2>Other</h2>
+        <div class="research-entry">
+          <h3>Other Work</h3>
+          <p class="abstract">Description...</p>
+          <a href="link.html">Read more</a>
+        </div>
+      </section>
+    </article>
+  </div>
+</div>
