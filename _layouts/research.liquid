@@ -4,7 +4,7 @@ layout: default
 <div class="post research">
  <!-- Main content -->
     {% for section in page.sections %}
-      <a class="anchor" id=“{{ section.id }}"></a>
+      <a class="anchor" id="{{ section.id }}"></a>
       <section id="{{ section.id }}">
         <h2>{{ section.name }}</h2>
         {% assign items = site.data.research[section.id] %}
@@ -17,7 +17,16 @@ layout: default
         {% endfor %}
       </section>
     {% endfor %}
+
+ {% if page.toc and page.toc.beginning %}
+  <div id="table-of-contents">
+   {% toc %}
+  </div>
+ {% endif %}
+
 </div>
+
+
 
 
 
