@@ -1,6 +1,16 @@
 --- 
 layout: default
 ---
+{% if page.title == "Research" %}
+  <ul class="nav flex-column">
+   {% for section in page.sections %}
+      <li class="nav-item">
+        <a class="nav-link" href="#{{ section.id }}">{{ section.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 <div class="post research">
  <!-- Main content -->
     {% for section in page.sections %}
