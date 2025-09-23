@@ -1,14 +1,14 @@
 working-papers:
   - title: "Paper 1"
-    abstract: "Short abstract here..."
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a sapien molestie sem maximus ornare sagittis quis lorem. Sed tortor nisl, iaculis vitae tortor eu, tempus tincidunt ex. Nullam aliquam purus faucibus porta luctus. Praesent turpis ligula, consequat eget convallis a, pellentesque eu nunc. Suspendisse faucibus quis leo sit amet cursus. Nunc aliquam elementum felis, a pharetra nunc ultrices sit amet. Donec non nibh vitae dui euismod tincidunt a in odio."
     link: "/papers/paper1"
   - title: "Paper 2"
-    abstract: "Another abstract..."
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a sapien molestie sem maximus ornare sagittis quis lorem. Sed tortor nisl, iaculis vitae tortor eu, tempus tincidunt ex. Nullam aliquam purus faucibus porta luctus. Praesent turpis ligula, consequat eget convallis a, pellentesque eu nunc. Suspendisse faucibus quis leo sit amet cursus. Nunc aliquam elementum felis, a pharetra nunc ultrices sit amet. Donec non nibh vitae dui euismod tincidunt a in odio."
     link: "/papers/paper2"
 
 projects:
   - title: "Project 1"
-    abstract: "Description here..."
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a sapien molestie sem maximus ornare sagittis quis lorem. Sed tortor nisl, iaculis vitae tortor eu, tempus tincidunt ex. Nullam aliquam purus faucibus porta luctus. Praesent turpis ligula, consequat eget convallis a, pellentesque eu nunc. Suspendisse faucibus quis leo sit amet cursus. Nunc aliquam elementum felis, a pharetra nunc ultrices sit amet. Donec non nibh vitae dui euismod tincidunt a in odio."
     link: "/projects/project1"
 
 other:
