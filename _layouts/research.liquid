@@ -6,11 +6,13 @@ layout: default
   <div class="row">
     <!-- Sidebar -->
     <aside class="col-md-3">
-      <ul>
-      {% for section in page.sections %}
-        <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
-      {% endfor %}
-      </ul>
+      <nav class="toc">
+        <ul>
+        {% for section in page.sections %}
+          <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
     </aside>
 
     <!-- Main content -->
