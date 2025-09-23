@@ -1,15 +1,6 @@
 --- 
 layout: default
 ---
-{% contentfor toc-sidebar %}
-  <ul class="nav flex-column">
-    {% for section in page.sections %}
-      <li class="nav-item">
-        <a class="nav-link" href="#{{ section.id }}">{{ section.name }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endcontentfor %}
 
 <div class="post research">
  <!-- Main content -->
