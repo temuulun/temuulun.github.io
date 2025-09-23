@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_notitle
 permalink: /cv/
 title: CV
 description: A list of institutions I've spent time at.
