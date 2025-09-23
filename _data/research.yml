@@ -1,0 +1,17 @@
+working-papers:
+  - title: "Paper 1"
+    abstract: "Short abstract here..."
+    link: "/papers/paper1"
+  - title: "Paper 2"
+    abstract: "Another abstract..."
+    link: "/papers/paper2"
+
+projects:
+  - title: "Project 1"
+    abstract: "Description here..."
+    link: "/projects/project1"
+
+other:
+  - title: "Resource 1"
+    abstract: "Info here..."
+    link: "/other/resource1"
