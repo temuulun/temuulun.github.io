@@ -279,6 +279,31 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+
+/*-----------------research page override----------------------*/
+
+.research .toc {
+  position: sticky;
+  top: 100px;     // stays visible while scrolling
+  padding-right: 1rem;
+}
+
+.research-entry {
+  margin-bottom: 2rem;
+}
+
+.research-entry h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.research-entry .abstract {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+
 /*--------------- Navbar customization--------------------*/
 
 .navbar {
