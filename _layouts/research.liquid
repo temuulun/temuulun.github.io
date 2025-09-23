@@ -3,34 +3,33 @@ layout: default
 ---
 <div class="post research">
 
-  <div class="row">
-    <!-- Sidebar -->
-    <aside class="col-md-3">
-      <nav class="toc">
-        <ul>
-        {% for section in page.sections %}
-          <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
-        {% endfor %}
-        </ul>
-      </nav>
-    </aside>
-
-    <!-- Main content -->
-    <article class="col-md-9">
+  <!-- Sidebar -->
+  <aside class="col-md-3">
+    <nav class="toc">
+      <ul>
       {% for section in page.sections %}
-        <section id="{{ section.id }}">
-          <h2>{{ section.name }}</h2>
-          {% assign items = site.data.research[section.id] %}
-          {% for item in items %}
-            <div class="research-item">
-              <h3>{{ item.title }}</h3>
-              <p>{{ item.abstract }}</p>
-              <a href="{{ item.link }}">Read more</a>
-            </div>
-          {% endfor %}
-        </section>
+        <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
       {% endfor %}
-    </article>
-  </div>
+      </ul>
+    </nav>
+  </aside>
+  
+  <!-- Main content -->
+  <article class="col-md-9">
+    {% for section in page.sections %}
+      <section id="{{ section.id }}">
+        <h2>{{ section.name }}</h2>
+        {% assign items = site.data.research[section.id] %}
+        {% for item in items %}
+          <div class="research-item">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.abstract }}</p>
+            <a href="{{ item.link }}">Read more</a>
+          </div>
+        {% endfor %}
+      </section>
+    {% endfor %}
+  </article>
 </div>
-
+  
+  
