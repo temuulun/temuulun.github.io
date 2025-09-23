@@ -5,7 +5,8 @@ title: Research
 description: Collection of working papers
 nav: true
 nav_order: 2
-toc: false
+toc:
+  sidebar: left
 sections:
   - id: working-papers
     name: "Working Papers"
