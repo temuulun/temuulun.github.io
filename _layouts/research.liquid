@@ -2,17 +2,7 @@
 layout: default 
 ---
 <div class="post research">
-
-<!-- Sidebar -->
-    <aside class="col-md-3">
-    <ul>
-    {% for section in page.sections %}
-      <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
-    {% endfor %}
-    </ul>
-  </aside>
-  
-  <!-- Main content -->
+ <!-- Main content -->
   <article class="col-md-9">
     {% for section in page.sections %}
       <section id="{{ section.id }}">
