@@ -2,7 +2,7 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography
+// Typography for all elements
 
 p,
 h1,
@@ -19,7 +19,7 @@ strong {
   color: var(--global-text-color);
 }
 
-/*---by TEMU---*/
+
 body {
   margin: 0;
   padding: 0;
@@ -38,7 +38,6 @@ h6 {
   line-height: 1.2;
   font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
 }
-/*---by TEMU---*/
 
 
 
@@ -213,6 +212,22 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+/*------- about page ----------*/
+.about {
+  font-size: 0.8rem;     // shrink text slightly
+  max-width: 750px;      // narrower column
+  margin: 0 auto;        // center it
+
+  h1, h2, h3 {
+    font-size: 90%;      // scale down headings
+  }
+
+  p {
+    line-height: 1.2;    // adjust spacing for aesthetics
+  }
+}
+
+
 // Profile
 
 .profile {
@@ -231,11 +246,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .profile.float-left {
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 @media (min-width: 576px) {
