@@ -2,7 +2,7 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography for all elements
+/*--------------- Typography for all elements-------------*/
 
 p,
 h1,
@@ -38,7 +38,6 @@ h6 {
   line-height: 1.2;
   font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
 }
-
 
 
 hr {
@@ -212,9 +211,10 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
-/*------- about page ----------*/
+
+/*------- about page override----------*/
 .about {
-  font-size: 0.8rem;     // shrink text slightly
+  font-size: 0.9rem;     // shrink text slightly
   max-width: 750px;      // narrower column
   margin: 0 auto;        // center it
 
@@ -279,7 +279,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Navbar customization
+/*--------------- Navbar customization--------------------*/
 
 .navbar {
   box-shadow: none;
