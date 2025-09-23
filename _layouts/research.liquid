@@ -1,8 +1,8 @@
 --- 
-layout: page
+layout: default
 ---
 
-<div class="post research">
+<div class="post">
   {% for section in page.sections %}
     <h2 id="{{ section.id }}">{{ section.name }}</h2>
     {% assign items = site.data.research[section.id] %}
