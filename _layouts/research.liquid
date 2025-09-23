@@ -3,16 +3,14 @@ layout: default
 ---
 <div class="post research">
 
-  <!-- Sidebar -->
-  <aside class="col-md-3">
-    <nav class="toc">
-      <ul>
-      {% for section in page.sections %}
-        <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
-      {% endfor %}
-      </ul>
-    </nav>
-  </aside>
+<!-- Sidebar -->
+   <nav class="toc">
+    <ul>
+    {% for section in page.sections %}
+      <li><a href="#{{ section.id }}">{{ section.name }}</a></li>
+    {% endfor %}
+    </ul>
+  </nav>
   
   <!-- Main content -->
   <article class="col-md-9">
