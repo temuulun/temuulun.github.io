@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: research
 permalink: /research/
 title: Research
 description: Collection of working papers
