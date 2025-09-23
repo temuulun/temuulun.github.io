@@ -296,6 +296,10 @@ ul.task-list input[type="checkbox"] {
     font-size: 90%; 
     line-height: 1.5;    // adjust spacing for aesthetics
   }
+  
+  font-size: 0.875rem;     // shrink text slightly
+  max-width: 700px;      // narrower column
+  margin: 0 auto;        // center it
   margin-bottom: 0.3rem;
 }
 
