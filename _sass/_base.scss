@@ -245,7 +245,11 @@ ul.task-list input[type="checkbox"] {
   p {
     font-size: 90%; 
     line-height: 1.5;    // adjust spacing for aesthetics
-  }
+  }  
+}
+
+.page-notitle .profile img {
+  max-width: 60%;   // make image take up half the width of the content column
 }
 
 // Profile
