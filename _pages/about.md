@@ -6,7 +6,7 @@ subtitle: PhD student at <a href= 'https://www.diw.de/' target='_blank'>DIW Berl
 social: false
 
 profile:
-  align: left
+  align: right
   image: office.jpg
   image_circular: false # crops the image to make it circular
 
