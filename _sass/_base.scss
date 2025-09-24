@@ -503,31 +503,28 @@ ul.task-list input[type="checkbox"] {
 
 
 /*-------------gallery side navbar override---------------*/
-.gallery-nav > a {
-    color: var(--global-text-color);
-    font-size: 0.75em;
-    text-align: left;          // left align text
-    font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
-    
-    &:hover {
-      color: var(--global-hover-color);
-    }
+.gallery-nav .nav-link {
+  color: var(--global-text-color);
+  font-size: 0.75em;
+  text-align: left;          // left align text
+  font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
+  
+  &:hover {
+    color: var(--global-hover-color);
   }
 
-
-.gallery-nav > a:last-child {
-  border-bottom: none;       // remove line under last item
-}
-
-.gallery-nav .navbar-nav .nav-link.active > a {
+  &.active{
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
   }
+}
+
+
+.gallery-nav .nav-link:last-child {
+  border-bottom: none;       // remove line under last item
+}
+
 
 // Social (bottom)
 
