@@ -129,6 +129,10 @@ newsletter:
 
 # collections:
 
+collections:
+  photography:
+    output: true     # ensures each item has its own page
+    permalink: /photography/
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
