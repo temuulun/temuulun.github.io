@@ -14,6 +14,8 @@ profile:
 
 Hi, happy to see you here!
 
-I am Temulun and my research is in health economics and empirical industrial organization. I use causal inference methods and structural models to study decision-making in healthcare. Currently, I am trying to understand how patients influence healthcare delivery and provider behavior in the context of primary care. I also study how competitive pressures can shape treatment decisions. I have been working mostly with large-scale data on claims, prescriptions, and demographics, and have experience processing text and geodata. Before starting my PhD in Economics at [Berlin School of Economics](https://berlinschoolofeconomics.de/home) / [DIW Berlin](https://www.diw.de/) in October 2020 and moving to Berlin, I received my master's degree in Economics from [CEMFI](https://www.cemfi.es/index.asp), Madrid.
+I am Temulun and I am a researcher in health economics and empirical industrial organization. My work looks at how decisions are made in healthcare, from the choices patients make, to how providers respond, and how competition shapes treatment decisions. I use causal inference methods and structural models to study these decision-making processes. Right now, I am working to understand how patients influence healthcare delivery and provider behavior in primary care. I have been working mostly with large-scale data on claims, prescriptions, and demographics, and have experience processing text and geodata. 
 
-Besides work, I am also interested in Brazilian Jiu-Jitsu, human languages, and photography (alphabetically ordered).
+I’m currently a PhD student in Economics at [Berlin School of Economics](https://berlinschoolofeconomics.de/home) / [DIW Berlin](https://www.diw.de/) since October 2020. Before that, I received my master's degree in Economics from [CEMFI](https://www.cemfi.es/index.asp), Madrid.
+
+Besides research, I am also interested in Brazilian Jiu-Jitsu, human languages, and photography (alphabetically ordered).
