@@ -1,5 +1,5 @@
 ---
-title: "Portfolio 1"
+title: "Los Vallekanos"
 layout: gallery
 parent: Gallery
 ---
