@@ -1,6 +1,6 @@
 ---
 title: "Portfolio 1"
-layout: default
+layout: gallery
 parent: Gallery
 ---
 ![Mountain](../assets/img/1.jpg)
