@@ -30,14 +30,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/gallery/";
               },
-            },{id: "photography-los-vallekanos",
+            },{id: "photography-when-the-day-is-ending",
+          title: 'When The Day is Ending',
+          description: "",
+          section: "Photography",handler: () => {
+              window.location.href = "/gallery/dayend/";
+            },},{id: "photography-los-vallekanos",
           title: 'Los Vallekanos',
           description: "",
           section: "Photography",handler: () => {
               window.location.href = "/gallery/losvallekanos/";
-            },},{id: "photography-portfolio-2",
-          title: 'Portfolio 2',
-          description: "",
-          section: "Photography",handler: () => {
-              window.location.href = "/gallery/portfolio2/";
             },},];
