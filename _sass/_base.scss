@@ -22,15 +22,15 @@ strong {
 
 body {
   margin: 0;
- // padding: 0;
+  padding: 0;
   color: var(--global-text-color);
   font-family: "Helvetica Neue", sans-serif;
   line-height: 1.5;
 }
 
-/*body.fixed-top-nav {
-  padding-top: 70px;
-}*/
+body.fixed-top-nav {
+  padding-top: 56px;
+}
 
 h1,
 h2,
@@ -238,16 +238,16 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
-  /*.more-info {
+  .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    //font-family: monospace;
 
     p {
       display: inline-block;
       margin: 0;
     }
-  }*/
+  }
 }
 
 .profile.float-right {
