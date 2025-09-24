@@ -1,5 +1,5 @@
 ---
-title: "Portraits"
+title: "Portfolio 2"
 layout: default
 parent: Gallery
 ---
