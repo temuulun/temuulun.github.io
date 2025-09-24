@@ -132,6 +132,7 @@ newsletter:
 collections:
   photography:
     output: true 
+    permalink: /gallery/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
