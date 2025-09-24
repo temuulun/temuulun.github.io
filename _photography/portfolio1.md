@@ -1,8 +1,7 @@
---
-title: "Landscapes"
+---
+title: "Portraits"
 layout: default
-nav: true
-nav_order: 1
+parent: Gallery
 toc:
   sidebar: left
 ---
