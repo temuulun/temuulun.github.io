@@ -10,7 +10,7 @@ layout: gallery
     <div class="container">
       <div class="row">
         {% assign folder = page.portfolio %}
-        {% assign photos = site.static_files | where: "path", "/assets/img/gallery/#{folder}/" %}
+        {% assign photos = site.static_files | where: "path", "/assets/img/#{folder}/" %}
 
         {% for photo in photos %}
           <div class="col-md-6 mb-4">
