@@ -5,7 +5,7 @@ layout: default
 <div class="row">
   <!-- Sidebar -->
   <aside class="col-sm-3">
-    <nav class="navbar navbar-light bg-light flex-column sticky-top">
+    <nav class="navbar flex-column sticky-top">
       {% for item in site.photography %}
         <a class="nav-link {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">
           {{ item.title }}
@@ -17,7 +17,8 @@ layout: default
   <!-- Main content -->
   <main class="col-sm-9">
     <h1>{{ page.title }}</h1>
-    <div class="gallery-content">
+    <p class="post-description">{{ page.description }}</p>
+    <div class="post-content">
       {{ content }}
     </div>
   </main>
