@@ -28,9 +28,9 @@ body {
   line-height: 1.5;
 }
 
-body.fixed-top-nav {
-  padding-top: 70px; /* adjust if your navbar is taller */
-}
+/*body.fixed-top-nav {
+  padding-top: 70px;
+}*/
 
 h1,
 h2,
@@ -292,6 +292,9 @@ ul.task-list input[type="checkbox"] {
 }
 
 .research {
+
+  max-width: 700px;      // narrower column
+ 
   h1, h2, h3 {
     font-size: 90%;      // scale down headings
   }
