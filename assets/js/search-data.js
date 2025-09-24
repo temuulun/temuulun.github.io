@@ -34,10 +34,10 @@ ninja.data = [{
           title: 'Portraits',
           description: "",
           section: "Photography",handler: () => {
-              window.location.href = "/photography/portfolio1.html";
+              window.location.href = "/gallery/portfolio1/";
             },},{id: "photography-portraits",
           title: 'Portraits',
           description: "",
           section: "Photography",handler: () => {
-              window.location.href = "/photography/portfolio2.html";
+              window.location.href = "/gallery/portfolio2/";
             },},];
