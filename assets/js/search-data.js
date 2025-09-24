@@ -30,7 +30,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/gallery/";
               },
-            },{id: "photography-when-the-day-is-ending",
+            },{id: "photography-chair-piles",
+          title: 'Chair Piles',
+          description: "",
+          section: "Photography",handler: () => {
+              window.location.href = "/gallery/chairpiles/";
+            },},{id: "photography-when-the-day-is-ending",
           title: 'When The Day is Ending',
           description: "",
           section: "Photography",handler: () => {
