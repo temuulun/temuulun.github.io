@@ -132,7 +132,7 @@ newsletter:
 collections:
   photography:
     output: true     # ensures each item has its own page
-    permalink: /photography/
+    permalink: /gallery/
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
