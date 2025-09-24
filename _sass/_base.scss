@@ -390,7 +390,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-brand {
     color: var(--global-text-color);
   }
-
+  
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
@@ -399,22 +399,22 @@ ul.task-list input[type="checkbox"] {
       color: var(--global-hover-color);
     }
   }
-
+  
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
-
+  
     &:hover {
       color: var(--global-hover-color);
     }
   }
-
+  
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
-
+  
     a {
       img {
         width: 1.7rem;
@@ -422,23 +422,23 @@ ul.task-list input[type="checkbox"] {
         margin-bottom: 0.5rem;
         // margin: 0.5rem;
       }
-
+  
       svg {
         width: 1.7rem;
         height: 1.7rem;
         margin-bottom: 0.5rem;
-
+  
         image {
           width: 1.7rem;
           height: 1.7rem;
         }
       }
-
+  
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
-
+  
       &:hover {
         i::before {
           color: var(--global-theme-color);
@@ -503,9 +503,10 @@ ul.task-list input[type="checkbox"] {
 
 
 /*-------------gallery side navbar override---------------*/
-.gallery-nav .nav-link {
+.gallery-nav .nav-item .nav-link {
   color: var(--global-text-color);
   font-size: 0.75em;
+  display: block;
   text-align: left;          // left align text
   font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
   
@@ -521,7 +522,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 
-.gallery-nav .nav-link:last-child {
+.gallery-nav .nav-item:last-child > .nav-link{
   border-bottom: none;       // remove line under last item
 }
 
