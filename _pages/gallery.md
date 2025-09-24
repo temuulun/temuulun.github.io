@@ -1,10 +1,8 @@
 ---
-layout: page_notitle
+layout: gallery
 title: Gallery
 permalink: /gallery/
 nav: false
-toc:
-  sidebar: left
   
 profile:
   align: left
