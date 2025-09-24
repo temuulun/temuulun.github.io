@@ -35,8 +35,8 @@ ninja.data = [{
           description: "",
           section: "Photography",handler: () => {
               window.location.href = "/gallery/portfolio1/";
-            },},{id: "photography-portfolio-2",
-          title: 'Portfolio 2',
+            },},{id: "photography-portraits",
+          title: 'Portraits',
           description: "",
           section: "Photography",handler: () => {
               window.location.href = "/gallery/portfolio2/";
