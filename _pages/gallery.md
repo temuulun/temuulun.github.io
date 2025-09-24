@@ -6,4 +6,7 @@ permalink: /gallery/
 nav: false
 ---
 
-![Alt](/assets/img/contact_cropped.jpg)
+<img src="{{ '/assets/img/contact_cropped.jpg' | relative_url }}" 
+     alt="Contact" 
+     class="img-fluid w-100">
+     
