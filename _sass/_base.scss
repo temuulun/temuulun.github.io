@@ -503,7 +503,7 @@ ul.task-list input[type="checkbox"] {
 
 
 /*-------------gallery side navbar override---------------*/
-.gallery-nav .navbar-nav .nav-item .nav-link {
+.gallery-nav > a {
     color: var(--global-text-color);
     font-size: 0.75em;
     text-align: left;          // left align text
@@ -515,11 +515,11 @@ ul.task-list input[type="checkbox"] {
   }
 
 
-.gallery-nav aside.navbar .nav-item:last-child  {
+.gallery-nav > a:last-child {
   border-bottom: none;       // remove line under last item
 }
 
-.gallery-nav .navbar-nav .nav-item.active > .nav-link {
+.gallery-nav .navbar-nav .nav-link.active > a {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
