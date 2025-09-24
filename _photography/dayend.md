@@ -1,5 +1,5 @@
 ---
-title: "Portfolio 2"
+title: "When The Day is Ending"
 layout: gallery
 parent: Gallery
 ---
