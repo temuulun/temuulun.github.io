@@ -3,7 +3,9 @@ layout: page_notitle
 title: Gallery
 permalink: /gallery/
 nav: false
-
+toc:
+  sidebar: left
+  
 profile:
   align: left
   image: contact_cropped.jpg
