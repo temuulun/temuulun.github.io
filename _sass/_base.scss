@@ -248,8 +248,19 @@ ul.task-list input[type="checkbox"] {
   }  
 }
 
+/* Make profile container wider on CV page and make its image fill it */
+.page-notitle .profile {
+  width: 60%;               /* increase container width (was ~30%) */
+  max-width: 500px;         /* optional cap */
+  margin-bottom: 1.25rem;
+}
+
+/* Ensure image fills container — override theme rules */
 .page-notitle .profile img {
-  max-width: 400px;   // make image take up half the width of the content column
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
 }
 
 // Profile
