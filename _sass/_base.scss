@@ -509,7 +509,36 @@ ul.task-list input[type="checkbox"] {
   font-size: 0.75em;
 }
 
+.row.gallery-nav aside.navbar {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 0.75rem;
+  background-color: var(--global-bg-color);
+  padding-top: 1rem;
+}
 
+.row.gallery-nav aside.navbar .nav-link {
+  color: var(--global-text-color);
+  padding: 0.5rem 1rem;
+  text-align: left;          // left align text
+
+  &:hover {
+    color: var(--global-hover-color);
+   }
+}
+
+.row.gallery-nav aside.navbar .nav-link:last-child {
+  border-bottom: none;       // remove line under last item
+}
+
+.row.gallery-nav aside.navbar .nav-link.active {
+  background-color: inherit;
+  font-weight: bolder;
+  color: var(--global-theme-color);
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
 
 // Social (bottom)
 
