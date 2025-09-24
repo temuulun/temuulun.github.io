@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 
 profile:
-  align: right
+  align: left
   image: pigeon_cropped.jpg
   image_circular: false # crops the image to make it circular
 ---
