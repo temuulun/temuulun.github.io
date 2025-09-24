@@ -1,1 +1,32 @@
+---
+layout: gallery
+---
+<div class="post portfolio">
+  <header class="post-header">
+    <h3 class="post-title-small">{{ page.title }}</h3>
+  </header>
+
+  <article class="portfolio-gallery">
+    <div class="container">
+      <div class="row">
+        {% assign folder = page.portfolio %}
+        {% assign photos = site.static_files | where: "path", "/assets/img/gallery/#{folder}/" %}
+
+        {% for photo in photos %}
+          <div class="col-md-6 mb-4">
+            {% include figure.liquid
+              path=photo.path
+              class="img-fluid"
+              alt=photo.name
+              caption=photo.name
+            %}
+          </div>
+
+          {% if forloop.index0 % 2 == 1 %}
+            </div><div class="row">
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </article>
 </div>
