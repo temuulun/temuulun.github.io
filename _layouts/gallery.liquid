@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="row">
+  <!-- Sidebar -->
+  <aside class="col-sm-3">
+    <nav class="sticky-top">
+      <ul class="nav flex-column">
+        {% for item in site.photography %}
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main content -->
+  <main class="col-sm-9">
+    <h1>{{ page.title }}</h1>
+    <div class="gallery-content">
+      {{ content }}
+    </div>
+  </main>
+</div>
