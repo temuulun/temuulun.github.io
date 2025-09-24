@@ -6,7 +6,7 @@ permalink: /gallery/
 nav: false
 ---
 
-<img src='contact_cropped.jpg'
+<img src='assets/img/contact_cropped.jpg'
      alt="Contact" 
      class="img-fluid w-100">
 
