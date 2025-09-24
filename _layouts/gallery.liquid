@@ -5,16 +5,12 @@ layout: default
 <div class="row">
   <!-- Sidebar -->
   <aside class="col-sm-3">
-    <nav class="sticky-top">
-      <ul class="nav flex-column">
-        {% for item in site.photography %}
-          <li class="nav-item">
-            <a class="nav-link {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">
-              {{ item.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+    <nav class="navbar navbar-light bg-light flex-column sticky-top">
+      {% for item in site.photography %}
+        <a class="nav-link {% if page.url == item.url %}active{% endif %}" href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      {% endfor %}
     </nav>
   </aside>
 
