@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: PhD student at <a href= 'https://www.diw.de/' target='_blank'>DIW Berlin</a>  & <a href='https://www.tu.berlin/en/wm' target='_blank'>TU Berlin</a>
+social: true
 
 profile:
   align: left
