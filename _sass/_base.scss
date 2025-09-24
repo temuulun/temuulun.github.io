@@ -340,14 +340,7 @@ ul.task-list input[type="checkbox"] {
 
 }
 
-/*-------------gallery side navbar override---------------*/
-.gallery-nav .navbar {
-
-  color: var(--global-text-color);
-  font-size: 0.875em;
-}
-
-    
+  
   
 
 /*--------------- Navbar customization--------------------*/
@@ -505,6 +498,17 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-hover-color);
   }
 }
+
+
+
+/*-------------gallery side navbar override---------------*/
+.gallery-nav .navbar .nav-link{
+
+  color: var(--global-text-color);
+  font-size: 0.75em;
+}
+
+
 
 // Social (bottom)
 
