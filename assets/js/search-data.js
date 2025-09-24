@@ -30,11 +30,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/gallery/";
               },
-            },{id: "photography-portfolio-1",
-          title: 'Portfolio 1',
+            },{id: "photography-los-vallekanos",
+          title: 'Los Vallekanos',
           description: "",
           section: "Photography",handler: () => {
-              window.location.href = "/gallery/portfolio1/";
+              window.location.href = "/gallery/losvallekanos/";
             },},{id: "photography-portfolio-2",
           title: 'Portfolio 2',
           description: "",
