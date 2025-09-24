@@ -6,7 +6,8 @@ permalink: /gallery/
 nav: false
 ---
 
-<img src="{{ 'contact_cropped.jpg' | relative_url }}" 
+<img src="{{ '/assets/img/contact_cropped.jpg' | relative_url }}" 
      alt="Contact" 
      class="img-fluid w-100">
+
      
