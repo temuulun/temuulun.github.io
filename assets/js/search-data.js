@@ -32,7 +32,7 @@ ninja.data = [{
               },
             },{id: "photography-chair-piles",
           title: 'Chair Piles',
-          description: "",
+          description: "Rain falls, snow melts, and chairs pile up. Take a look at the Instagram archive.",
           section: "Photography",handler: () => {
               window.location.href = "/gallery/chairpiles/";
             },},{id: "photography-when-the-day-is-ending",
