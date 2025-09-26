@@ -4,6 +4,7 @@ layout: gallery
 parent: Gallery
 nav: true
 nav_order: 3
+description: Rain falls, snow melts, and chairs pile up. Take a look at the <a href='https://www.instagram.com/chairpiles/'>Instagram archive</a>.
 ---
 
 <div class="row justify-content-sm-center">
