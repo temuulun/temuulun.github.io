@@ -40,6 +40,11 @@ ninja.data = [{
           description: "",
           section: "Photography",handler: () => {
               window.location.href = "/gallery/dayend/";
+            },},{id: "photography-what-do-people-do-alone",
+          title: 'What Do People Do (Alone)',
+          description: "",
+          section: "Photography",handler: () => {
+              window.location.href = "/gallery/doalone/";
             },},{id: "photography-los-vallekanos",
           title: 'Los Vallekanos',
           description: "",
