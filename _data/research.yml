@@ -1,17 +1,20 @@
 working-papers:
-  - title: "Paper 1"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a sapien molestie sem maximus ornare sagittis quis lorem. Sed tortor nisl, iaculis vitae tortor eu, tempus tincidunt ex. Nullam aliquam purus faucibus porta luctus. Praesent turpis ligula, consequat eget convallis a, pellentesque eu nunc. Suspendisse faucibus quis leo sit amet cursus. Nunc aliquam elementum felis, a pharetra nunc ultrices sit amet. Donec non nibh vitae dui euismod tincidunt a in odio."
-    link: "/papers/paper1"
-  - title: "Paper 2"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a sapien molestie sem maximus ornare sagittis quis lorem. Sed tortor nisl, iaculis vitae tortor eu, tempus tincidunt ex. Nullam aliquam purus faucibus porta luctus. Praesent turpis ligula, consequat eget convallis a, pellentesque eu nunc. Suspendisse faucibus quis leo sit amet cursus. Nunc aliquam elementum felis, a pharetra nunc ultrices sit amet. Donec non nibh vitae dui euismod tincidunt a in odio."
-    link: "/papers/paper2"
+  - title: "Competitive Pressure and Antibiotic prescribing in Primary Care (w. [Hannes Ulrich](https://www.hannesullrich.com/))"
+    abstract: "Excessive use of antibiotics contributes to the development of antibiotic-resistant bacteria, posing a major threat to public health. In many healthcare systems, primary care physicians act as gatekeepers and account for the majority of antibiotic use. We design a novel measure of competitive pressure based on choice probabilities at the clinic level to study how competition affects primary care physicians’ antibiotic prescribing behavior. Using clinic closures as an instrument variable, we find a significant and positive effect of competition on overall prescribing and prescription intensity. We also recover the demand elasticities for clinics with respect to prescribing history and show that prescribing intensity increases when patients are sensitive to a clinic's past prescriptions.  Notably, choice elasticities with respect to other factors such as distance to the clinic do not affect prescribing. Our findings suggest that effective policies aimed at improving antibiotic use need to address profit motives as an important factor."
+    link: "https://www.diw.de/en/diw_01.c.868094.en/events/when_competition_is_not_desired__the_case_of_antibiotic_prescribing.html"
+    
+  - title: "Patient-driven Information Flow and Practice Style Spillover"
+    abstract: "Access to information is vital to physicians who make critical treatment decisions that shape patients' lives. Although formal channels, such as professional training, medical databases, and clinical guidelines, are well-documented, little is known about informal learning, in which physicians acquire knowledge from peers or patients. In this paper, I study how patients act as carriers of clinical information that can influence the treatment behaviors of primary care physicians. When patients switch doctors, they bring with them not only medical histories but also expectations and experiences that can influence their new providers. I investigate whether the treatment styles they experienced at their previous clinics are adopted by their new physicians, thereby indirectly affecting how care is delivered to existing patients. Exploiting the quasi-random arrival of patients to the receiving clinic, I construct an information exposure measure using the share of patients who are treated with antibiotics in their previous clinics and find a small but positive spillover to the receiving clinics' patients. The effect is largely driven by the incoming patients with prescription history of narrow-spectrum antibiotics, suggesting that physicians can discern and adopt good practice styles. This paper provides novel insights into an informal but potentially impactful channel of medical knowledge diffusion, with practical implications for reducing variations in care quality and improving healthcare equality through better-informed clinical decision-making."
+
+- title: "Patient Choice and Switching in Primary Care"
+  abstract: "How do people choose their doctors? This paper identifies factors that contribute to choice and switching behavior in primary care. I develop a structural choice model that incorporates patient preferences, such as provider characteristics, treatment history, ethnic and gender concordance, and travel distance, to explain and predict switching between general practitioners. This chapter aims to understand mechanisms driving continuity of care and how frictions in the market (e.g., geographic constraints) affect patient mobility. Understanding these dynamics is crucial for evaluating patient autonomy, access to care, and competition in healthcare provision."
+    
 
 projects:
-  - title: "Project 1"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a sapien molestie sem maximus ornare sagittis quis lorem. Sed tortor nisl, iaculis vitae tortor eu, tempus tincidunt ex. Nullam aliquam purus faucibus porta luctus. Praesent turpis ligula, consequat eget convallis a, pellentesque eu nunc. Suspendisse faucibus quis leo sit amet cursus. Nunc aliquam elementum felis, a pharetra nunc ultrices sit amet. Donec non nibh vitae dui euismod tincidunt a in odio."
-    link: "/projects/project1"
+  - title: "Antibiotic Resistance: Socio-Economic Determinants and the Role of Information and Salience in Treatment Choice (ABRSEIST) (member)"
+    abstract: ""
+    link: "https://www.diw.de/en/diw_01.c.679858.en/projects/antibiotic_resistance__socio-economic_determinants_and_the_r___e_of_information_and_salience_in_treatment_choice__abrseist.html"
+  - title: "Towards a sustainable use of antibiotics: evolutionary approaches, clinical translation, ethical evaluation, and economic benefits (SKILLED) (former member)"
+    abstract: ""
+    link: "https://www.iem.uni-kiel.de/en/biomedical-ethics/research/current-research-projects"
 
-other:
-  - title: "Resource 1"
-    abstract: "Info here..."
-    link: "/other/resource1"
