@@ -9,10 +9,18 @@ description:
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/doalone/032021_madrid.jpeg" title="Madrid, March 2021" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/doalone/032021_madrid.jpg" title="Madrid, March 2021" class="img-fluid" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/doalone/112021_muc.jp2g" title="Munich, November 2021" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/doalone/112021_muc.jpg" title="Munich, November 2021" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/122022_bcn_1.jpg" title="Stiges, December 2022" class="img-fluid" %}
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
   </div>
 </div>
 
