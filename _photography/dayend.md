@@ -10,6 +10,7 @@ nav_order: 2
     {% include figure.liquid path="assets/img/dayend/122022_bcn_1.jpg" title="Stiges, December 2022" class="img-fluid" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/dayend/122022_bcn_1.jpg" title="Hamburg, August 2022" class="img-fluid" %}
   </div>
 </div>
 
