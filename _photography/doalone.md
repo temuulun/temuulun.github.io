@@ -16,11 +16,5 @@ description:
   </div>
 </div>
 
-<div class="row justify-content-sm-center">
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/doalone/122022_bcn_1.jpg" title="Stiges, December 2022" class="img-fluid" %}
-  </div>
-  <div class="col-sm-8 mt-3 mt-md-0">
-  </div>
-</div>
+
 
