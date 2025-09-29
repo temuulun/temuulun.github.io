@@ -9,11 +9,9 @@ toc:
   sidebar: left
 sections:
   - id: working-papers
-    name: "Working Papers"
+    name: "Work in Progress"
   - id: projects
     name: "Projects"
-  - id: other
-    name: "Other"
 ---
 
 
