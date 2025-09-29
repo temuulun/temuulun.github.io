@@ -38,7 +38,6 @@ h3,
 h4,
 h5,
 h6 {
-  //margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: "Gill Sans Nova", source-sans-pro, sans-serif;
 }
@@ -332,6 +331,10 @@ ul.task-list input[type="checkbox"] {
  
   h1, h2, h3 {
     font-size: 90%;      // scale down headings
+  }
+
+  h3 {
+    margin: 2em 0 0.5em;
   }
 
   p, a {
