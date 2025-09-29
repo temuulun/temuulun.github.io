@@ -16,8 +16,15 @@ working-papers:
     
 
 projects:
-  - title: "Antibiotic Resistance: Socio-Economic Determinants and the Role of Information and Salience in Treatment Choice (ABRSEIST) (member)"
-    abstract: "[Read more](https://www.diw.de/en/diw_01.c.679858.en/projects/antibiotic_resistance__socio-economic_determinants_and_the_r___e_of_information_and_salience_in_treatment_choice__abrseist.html)"
-  - title: "Towards a sustainable use of antibiotics: evolutionary approaches, clinical translation, ethical evaluation, and economic benefits (SKILLED) (former member)"
-    abstract: "[Read more](https://www.iem.uni-kiel.de/en/biomedical-ethics/research/current-research-projects)"
+  - title: "Antibiotic Resistance: Socio-Economic Determinants and the Role of Information and Salience in Treatment Choice (ABRSEIST) "
+    abstract: |
+      Project team member.
+      [Read more](https://www.diw.de/en/diw_01.c.679858.en/projects/antibiotic_resistance__socio-economic_determinants_and_the_r___e_of_information_and_salience_in_treatment_choice__abrseist.html)
+    
+  - title: "Towards a sustainable use of antibiotics: evolutionary approaches, clinical translation, ethical evaluation, and economic benefits (SKILLED)"
+    abstract: |
+      Former member. 
+      - Designed a Markov Model to evaluate the economic cost of antibiotic resistance, contributing to policy recommendations.
+      - Cross-functional collaboration with clinical, biomedical, and bioethical experts.
+      [Read more](https://www.iem.uni-kiel.de/en/biomedical-ethics/research/current-research-projects)
 
