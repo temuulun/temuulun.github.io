@@ -11,8 +11,8 @@ layout: default
          {% assign items = site.data.research[section.id] %}
          {% for item in items %}
            <div class="research-item">
-             <h3>{{ item.title }}</h3>
-             <p>{{ item.abstract }}</p>
+             <h3>{{ item.title | markdownify }}</h3>
+             <p>{{ item.abstract | markdownify }}</p>
              <a href="{{ item.link }}">Read more</a>
            </div>
          {% endfor %}
