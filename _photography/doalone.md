@@ -12,8 +12,14 @@ description:
     {% include figure.liquid path="assets/img/doalone/032021_madrid.jpg" title="Madrid, March 2021" class="img-fluid" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/doalone/112021_muc.jpg" title="Munich, November 2021" class="img-fluid" %}
   </div>
+   
+  <div class="col-sm-4 mt-3 mt-md-0">
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/062020_madrid.jpg" title="Madrid, June 2020" class="img-fluid" %}
+  </div> 
+  
 </div>
 
 
