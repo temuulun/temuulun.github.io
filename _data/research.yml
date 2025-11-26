@@ -9,8 +9,7 @@ working-papers:
   
   
   - title: "Patient Choice and Switching in Primary Care"
-    abstract: |  
-      How do people choose their doctors? This paper identifies factors that contribute to choice and switching behavior in primary care. I develop a structural choice model that incorporates patient preferences, such as provider characteristics, treatment history, ethnic and gender concordance, and travel distance, to explain and predict switching between general practitioners. I further analyze the predictability of patient choices using machine learning. This paper aims to understand the mechanisms driving (dis)continuity of care and how market frictions (e.g., geographic constraints) affect patient mobility. Understanding these dynamics is crucial for evaluating patient autonomy, access to care, and competition in healthcare provision."
+    abstract: "How do people choose their doctors? This paper identifies factors that contribute to choice and switching behavior in primary care. I develop a structural choice model that incorporates patient preferences, such as provider characteristics, treatment history, ethnic and gender concordance, and travel distance, to explain and predict switching between general practitioners. I further analyze the predictability of patient choices using machine learning. This paper aims to understand the mechanisms driving (dis)continuity of care and how market frictions (e.g., geographic constraints) affect patient mobility. Understanding these dynamics is crucial for evaluating patient autonomy, access to care, and competition in healthcare provision."
     
 
 projects:
