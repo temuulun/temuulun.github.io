@@ -198,6 +198,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - nokogiri  # update 26/11/2025 by Temu
 
 # Sitemap settings
 defaults:
