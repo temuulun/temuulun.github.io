@@ -1,0 +1,24 @@
+--- 
+layout: default
+---
+<div class="post research">
+ <article class="post-content">
+  <div id="markdown-content">
+   <!-- Main content -->
+     {% for section in page.sections %}
+       <section id="{{ section.id }}">
+         <h2>{{ section.name }}</h2>
+         {% assign items = site.data.research[section.id] %}
+         {% for item in items %}
+           <div class="research-item">
+             <h3>{{ item.title }}</h3>
+             <p>{{ item.abstract | markdownify }}</p>
+           </div>
+         {% endfor %}
+       </section>
+     {% endfor %}
+   </div>
+ </article>
+</div>
+
+
