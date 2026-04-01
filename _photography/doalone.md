@@ -22,5 +22,39 @@ description:
   
 </div>
 
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/062018_madrid.jpg" title="Madrid, June 2018" class="img-fluid" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/042019_bcn.jpg" title="Barcelona, April 2019" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/042019_bcn_2.jpg" title="Barcelona, April 2019" class="img-fluid" %}
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/072021_bcn.jpg" title="Barcelona, July 2021" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/112021_muc.jpg" title="Munich, November 2021" class="img-fluid" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/122022_bcn_1.jpg" title="Barcelona, December 2022" class="img-fluid" %}
+  </div>
+</div>
+
 
 
