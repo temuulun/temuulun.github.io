@@ -34,5 +34,5 @@ $max-content-width: {{ site.max_width }};
 
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
-  z-index: 2000;
+  z-index: 2000 !important;
 }
