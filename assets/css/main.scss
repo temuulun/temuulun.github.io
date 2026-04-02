@@ -32,7 +32,3 @@ $max-content-width: {{ site.max_width }};
   transform: scale(1.03);
 }
 
-.medium-zoom-overlay,
-.medium-zoom-image--opened {
-  z-index: 2000 !important;
-}
