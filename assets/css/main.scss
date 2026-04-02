@@ -23,3 +23,11 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.post-content figure img {
+  transition: transform 0.2s ease;
+  cursor: zoom-in;
+}
+.post-content figure img:hover {
+  transform: scale(1.03);
+}
