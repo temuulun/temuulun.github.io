@@ -13,7 +13,7 @@ images:
   <div class="col-sm-8 mt-3 mt-md-0">
     <figure>
       <a href="{{ '/assets/img/chairpiles/072023-hht.jpg' | relative_url }}" data-lightbox="chairpiles" data-title="Hohhot, July 2023">
-        <img src="{{ '/assets/img/chairpiles/072023-hht.jpg' | relative_url }}" class="img-fluid" alt="Hohhot, July 2023" />
+        <img src="{{ '/assets/img/chairpiles/072023-hht.jpg' | relative_url }}" class="img-fluid" loading="lazy" alt="Hohhot, July 2023" />
       </a>
     </figure>
   </div>
@@ -27,7 +27,7 @@ images:
   <div class="col-sm-8 mt-3 mt-md-0">
     <figure>
       <a href="{{ '/assets/img/chairpiles/082025-hht.jpg' | relative_url }}" data-lightbox="chairpiles" data-title="Hohhot, August 2025">
-        <img src="{{ '/assets/img/chairpiles/082025-hht.jpg' | relative_url }}" class="img-fluid" alt="Hohhot, August 2025" />
+        <img src="{{ '/assets/img/chairpiles/082025-hht.jpg' | relative_url }}" class="img-fluid" loading="lazy" alt="Hohhot, August 2025" />
       </a>
     </figure>
   </div>
@@ -37,7 +37,7 @@ images:
   <div class="col-sm-8 mt-3 mt-md-0">
     <figure>
       <a href="{{ '/assets/img/chairpiles/032021_bcn.jpg' | relative_url }}" data-lightbox="chairpiles" data-title="Barcelona, March 2021">
-        <img src="{{ '/assets/img/chairpiles/032021_bcn.jpg' | relative_url }}" class="img-fluid" alt="Barcelona, March 2021" />
+        <img src="{{ '/assets/img/chairpiles/032021_bcn.jpg' | relative_url }}" class="img-fluid" loading="lazy" alt="Barcelona, March 2021" />
       </a>
     </figure>
   </div>
