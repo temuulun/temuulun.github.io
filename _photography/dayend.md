@@ -8,7 +8,7 @@ nav_order: 2
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/dayend/122022_bcn_1.jpg" title="Sitges, December 2022" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/122022_bcn_1.jpg" title="Sitges, December 2022" class="img-fluid" zoomable=true %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
   </div>
@@ -16,34 +16,34 @@ nav_order: 2
 
 <div class="row justify-content-sm-center align-items-start">
   <div class="col-sm-5 mt-3 mt-md-5">
-    {% include figure.liquid path="assets/img/dayend/122022_bcn_2.jpg" title="Sitges, December 2022" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/122022_bcn_2.jpg" title="Sitges, December 2022" class="img-fluid" zoomable=true %}
   </div>
   <div class="col-sm-7 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/dayend/122022_bcn.jpg" title="Sitges, December 2022" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/122022_bcn.jpg" title="Sitges, December 2022" class="img-fluid" zoomable=true %}
   </div>
 </div>
 
 <div class="row justify-content-sm-center align-items-start">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/dayend/052019_bcn.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/052019_bcn.jpg" title="Barcelona, May 2019" class="img-fluid" zoomable=true %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-5">
-    {% include figure.liquid path="assets/img/dayend/052019_bcn_2.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/052019_bcn_2.jpg" title="Barcelona, May 2019" class="img-fluid" zoomable=true %}
   </div>
 </div>
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-7 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/dayend/052019_bcn_3.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/052019_bcn_3.jpg" title="Barcelona, May 2019" class="img-fluid" zoomable=true %}
   </div>
   <div class="col-sm-5 mt-3 mt-md-5">
-    {% include figure.liquid path="assets/img/dayend/052019_bcn_4.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/052019_bcn_4.jpg" title="Barcelona, May 2019" class="img-fluid" zoomable=true %}
   </div>
 </div>
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/dayend/102019_mad.jpg" title="Madrid, October 2019" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/102019_mad.jpg" title="Madrid, October 2019" class="img-fluid" zoomable=true %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
   </div>
@@ -53,6 +53,6 @@ nav_order: 2
   <div class="col-sm-4 mt-3 mt-md-0">
   </div>
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/dayend/052019_bcn_5.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+    {% include figure.liquid path="assets/img/dayend/052019_bcn_5.jpg" title="Barcelona, May 2019" class="img-fluid" zoomable=true %}
   </div>
 </div>
