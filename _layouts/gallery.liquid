@@ -3,8 +3,12 @@ layout: default
 ---
 {% if page.images.lightbox2 %}
   <style>
-    .lb-image { border: none !important; }
-    .lb-outerContainer { background-color: transparent !important; }
+    .lb-image { border: none !important; border-radius: 0 !important; }
+    .lb-outerContainer { background-color: transparent !important; border-radius: 0 !important; }
+    .lb-nav a.lb-prev,
+    .lb-nav a.lb-next { background-size: 20px !important; }
+    .lb-close { width: 20px !important; height: 20px !important; background-size: 20px !important; }
+    .lb-cancel { width: 20px !important; height: 20px !important; background-size: 20px !important; }
   </style>
 {% endif %}
 {% if page._styles %}
