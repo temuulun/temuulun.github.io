@@ -613,11 +613,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Extra bottom padding to prevent fixed footer from overlapping page content
-.post {
-  padding-bottom: 4rem;
-}
-
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-bg-color);
