@@ -31,3 +31,8 @@ $max-content-width: {{ site.max_width }};
 .post-content figure img:hover {
   transform: scale(1.03);
 }
+
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 2000;
+}
