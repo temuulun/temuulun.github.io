@@ -48,3 +48,37 @@ description:
     {% include figure.liquid path="assets/img/doalone/112021_muc.jpg" title="Munich, November 2021" class="img-fluid" %}
   </div>
 </div>
+
+<div class="row justify-content-sm-center align-items-start">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/052019_bcn.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-5">
+    {% include figure.liquid path="assets/img/doalone/112019_mad.jpg" title="Madrid, November 2019" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center align-items-start">
+  <div class="col-sm-4 mt-3 mt-md-5">
+    {% include figure.liquid path="assets/img/doalone/032021_mad.jpg" title="Madrid, March 2021" class="img-fluid" %}
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/052019_bcn_2.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/052019_bcn_3.jpg" title="Barcelona, May 2019" class="img-fluid" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/doalone/052019_mad.jpg" title="Madrid, May 2019" class="img-fluid" %}
+  </div>
+</div>

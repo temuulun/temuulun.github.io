@@ -83,3 +83,26 @@ nav_order: 1
     {% include figure.liquid path="assets/img/losvk/052019_vk_5.jpg" title="Los Vallekanos, May 2019" class="img-fluid" %}
   </div>
 </div>
+
+<div class="row justify-content-sm-center align-items-start">
+  <div class="col-sm-7 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/losvk/052019_vk_7.jpg" title="Los Vallekanos, May 2019" class="img-fluid" %}
+  </div>
+  <div class="col-sm-5 mt-3 mt-md-5">
+    {% include figure.liquid path="assets/img/losvk/062019_vk_3.JPG" title="Los Vallekanos, June 2019" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-4 mt-3 mt-md-0">
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/losvk/052019_vk_8.jpg" title="Los Vallekanos, May 2019" class="img-fluid" %}
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/losvk/032021_vk.jpg" title="Los Vallekanos, March 2021" class="img-fluid" %}
+  </div>
+</div>
