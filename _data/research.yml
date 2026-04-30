@@ -1,35 +1,37 @@
 working-papers:
   - title: "Competitive Pressure and Antibiotic Prescribing in Primary Care"
+    subtext: "Doctors are trained to prescribe only when necessary. But when patients can walk next door, the incentive to say no gets weaker. Our new measure for competitive pressure shows that more competition results in more prescribing. This means antibiotic resistance isn't just a medical problem. It's a market design problem."
     abstract: |
-      (w. [Hannes Ulrich](https://www.hannesullrich.com/))
-      
-      Excessive use of antibiotics contributes to the development of antibiotic-resistant bacteria, posing a major threat to public health. In many healthcare systems, primary care physicians act as gatekeepers and account for the majority of antibiotic use. We design a novel measure of competitive pressure based on choice probabilities at the clinic level to study how competition affects primary care physicians’ antibiotic prescribing behavior. Using clinic closures as an instrument variable, we find a significant and positive effect of competition on overall prescribing and prescription intensity. We also recover the demand elasticities for clinics with respect to their prescribing history and show that prescribing intensity increases when patients are sensitive to a clinic's past prescribing practices.  Notably, choice elasticities with respect to other factors such as distance to the clinic do not affect prescribing. Our findings suggest that effective policies aimed at improving antibiotic use need to address profit motives as an important factor.
-      
+      (w. [Hannes Ullrich](https://www.hannesullrich.com/))
+
+      Excessive use of antibiotics contributes to the development of antibiotic-resistant bacteria, posing a major threat to public health. In many healthcare systems, primary care physicians act as gatekeepers and account for the majority of antibiotic use. We design a novel measure of competitive pressure based on choice probabilities at the clinic level to study how competition affects primary care physicians' antibiotic prescribing behavior. Using clinic closures as an instrument variable, we find a significant and positive effect of competition on overall prescribing and prescription intensity. We also recover the demand elasticities for clinics with respect to their prescribing history and show that prescribing intensity increases when patients are sensitive to a clinic's past prescribing practices.  Notably, choice elasticities with respect to other factors such as distance to the clinic do not affect prescribing. Our findings suggest that effective policies aimed at improving antibiotic use need to address profit motives as an important factor.
+
       [Earlier version](https://www.diw.de/en/diw_01.c.868094.en/events/when_competition_is_not_desired__the_case_of_antibiotic_prescribing.html)
-  
+
   - title: "Patient-driven Information Flow and Practice Style Spillover"
+    subtext: "When a clinic closes and its patients scatter, they don't just bring themselves — they bring their prescribing histories, and their new doctors notice. A clinic that absorbs patients used to frequent antibiotics starts prescribing more to everyone, not just the newcomers. Good habits in one clinic can be quietly eroded by patient flows from elsewhere. Policies that ignore this will keep underdelivering."
     abstract: |
       Access to information is vital to physicians who make critical treatment decisions that shape patients' lives. In this paper, I study how physicians form and update prescribing behavior under uncertainty. Using quasi-random patient reallocation following primary care clinic closures in Denmark, I examine whether antibiotic prescribing practice styles are transmitted across clinics through patient mobility. I find that clinics receiving more new patients with prior antibiotic use increase their own prescribing intensity to existing patients, with a twofold increase in such patients raising prescribing by 2.3 percent. The response is stronger among newer clinics and is accompanied by increased use of diagnostic tests. The results are consistent with physicians learning from the prescribing histories of incoming patients rather than responding solely to changes in patient volume. Overall, the findings highlight patient mobility as an important, informal channel of information transmission in healthcare markets and suggest that prescribing practices may diffuse across clinics through patient reallocation. These spillovers have implications for the persistence of practice variation and for the design and evaluation of policies to improve antibiotic stewardship.
 
       [Draft available](https://temuulun.github.io/assets/pdf/StyleSpillover_24032026.pdf) \| [Earlier version](https://www.diw.de/de/diw_01.c.989215.de/veranstaltungen/patient-driven_information_flow_and_practice_style_spillover.html)
 
   - title: "Rationed Choice: Capacity Constraints and Patient Demand for Primary Care"
-    abstract: |  
-      This paper studies how capacity constraints distort observed patient choices and bias the estimation of primary care demand. In many primary care systems, providers can close their lists when demand exceeds regulated capacity, thus the set of providers a patient can join differs from the set operating in the market. I develop a discrete-choice framework that separates patient preferences from feasible access, using variation from forced switches after GP retirements and practice closures, together with changes in providers' open-list status over time. I complement the model with machine-learning methods to predict feasible access and to capture heterogeneity in patients' switching propensities and distance sensitivity. Using Danish administrative data, I compare estimates from this constrained-choice model to a standard specification that treats choices as unconstrained. Ignoring capacity constraints confounds preferences with rationing, overstating the role of distance, understating the role of provider characteristics, and distorting substitution patterns used in counterfactual analysis. I then use the corrected estimates to study the welfare and distributional effects of changes in list-size regulation and provider entry in underserved areas.
+    subtext: "We assume patients choose their doctor. But in many systems, the doctor's list is simply closed. So the \"choice\" we observe is really just whatever was available. Patients showing up in a far-away clinic may be understood as less sensitive to travel distance. Ignoring access constraints leads to bad predictions about what happens when new clinics open or regulations change."
+    abstract: |
+      This paper studies how capacity constraints distort observed patient choices and bias the estimation of primary care demand. In many primary care systems, providers can close their lists when demand exceeds regulated capacity, thus the set of providers a patient can join differs from the set operating in the market. I develop a discrete-choice framework that separates patient preferences from feasible access, using variation from forced switches after GP retirements and practice closures, together with changes in providers' open-list status over time. I complement the model with machine-learning methods to capture heterogeneity in welfare loss due to patients' switch motivations and charateristics. Using Danish administrative data, I compare estimates from this constrained-choice model to a standard specification that treats choices as unconstrained. Ignoring capacity constraints confounds preferences with rationing, understating the role of distance and provider characteristics, and distorting substitution patterns used in counterfactual analysis. I then use the corrected estimates to study the welfare and distributional effects of changes in list-size regulation and provider entry in underserved areas.
 
 projects:
   - title: "Antibiotic Resistance: Socio-Economic Determinants and the Role of Information and Salience in Treatment Choice (ABRSEIST) "
     abstract: |
       Project team member.
-      
+
       [Read more](https://www.diw.de/en/diw_01.c.679858.en/projects/antibiotic_resistance__socio-economic_determinants_and_the_r___e_of_information_and_salience_in_treatment_choice__abrseist.html)
-    
+
   - title: "Towards a sustainable use of antibiotics: evolutionary approaches, clinical translation, ethical evaluation, and economic benefits (SKILLED)"
     abstract: |
-      Former member. 
-      
+      Former member.
+
       Designed a Markov Model to evaluate the economic cost of antibiotic resistance, contributing to policy recommendations.
       Cross-functional collaboration with clinical, biomedical, and bioethical experts.
-      
-      [Read more](https://www.iem.uni-kiel.de/en/biomedical-ethics/research/current-research-projects)
 
+      [Read more](https://www.iem.uni-kiel.de/en/biomedical-ethics/research/current-research-projects)
