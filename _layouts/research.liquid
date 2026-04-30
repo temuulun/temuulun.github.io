@@ -12,6 +12,7 @@ layout: default
          {% for item in items %}
            <div class="research-item">
              <h3>{{ item.title }}</h3>
+             {% if item.subtext %}<p class="research-subtext">{{ item.subtext }}</p>{% endif %}
              <p>{{ item.abstract | markdownify }}</p>
            </div>
          {% endfor %}
