@@ -343,13 +343,13 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color-light);
   }
 
-}
+  p.research-subtext {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: var(--global-text-color);
+    margin-bottom: 0.75rem;
+  }
 
-.research-subtext {
-  font-size: 0.85rem;
-  line-height: 1.55;
-  color: var(--global-text-color);
-  margin-bottom: 0.75rem;
 }
 
   
