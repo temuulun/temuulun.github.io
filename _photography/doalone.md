@@ -10,6 +10,16 @@ images:
 ---
 
 <div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    <figure>
+      <a href="{{ '/assets/img/doalone/072020_nerja.jpg' | relative_url }}" data-lightbox="doalone" data-title="Nerja, July 2020">
+        <img src="{{ '/assets/img/doalone/072020_nerja.jpg' | relative_url }}" class="img-fluid" loading="lazy" alt="Nerja, July 2020" />
+      </a>
+    </figure>
+  </div>
+</div>
+
+<div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     <figure>
       <a href="{{ '/assets/img/doalone/032021_madrid.jpg' | relative_url }}" data-lightbox="doalone" data-title="Madrid, March 2021">
