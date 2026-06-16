@@ -14,4 +14,4 @@ profile:
 
 A list of institutions I've spent time at. 
 
-[Click here for my CV.](https://temuulun.github.io/assets/pdf/CV_Temulun.pdf)
+[Click here for my CV.](https://temuulun.github.io/assets/pdf/CV_short.pdf)
