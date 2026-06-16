@@ -20,6 +20,8 @@ working-papers:
     abstract: |
       This paper studies how capacity constraints distort observed patient choices and bias the estimation of primary care demand. In many primary care systems, providers can close their lists when demand exceeds regulated capacity, thus the set of providers a patient can join differs from the set operating in the market. I develop a discrete-choice framework that separates patient preferences from feasible access, using variation from forced switches after GP retirements and practice closures, together with changes in providers' open-list status over time. I complement the model with machine-learning methods to capture heterogeneity in welfare loss due to patients' switch motivations and charateristics. Using Danish administrative data, I compare estimates from this constrained-choice model to a standard specification that treats choices as unconstrained. Ignoring capacity constraints confounds preferences with rationing, understating the role of distance and provider characteristics, and distorting substitution patterns used in counterfactual analysis. I then use the corrected estimates to study the welfare and distributional effects of changes in list-size regulation and provider entry in underserved areas.
 
+      [Draft available](https://temuulun.github.io/assets/pdf/ClinicCapacity_16062026.pdf)
+
 projects:
   - title: "Antibiotic Resistance: Socio-Economic Determinants and the Role of Information and Salience in Treatment Choice (ABRSEIST) "
     abstract: |
